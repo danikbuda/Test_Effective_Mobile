@@ -1,1 +1,16 @@
-# Test_Effective_Mobile
+# Test_Effective_Mobile 
+Инструкция по запуску
+1 Клонировать проект через Git
+2 Запустить Visual Studio
+3 Скомпилировать проект в Visual Studio
+
+Примеры запросов
+Для примера мы используем номер порта 5000, вам следует указать порт на котором запущено приложение
+Загрузка данных из файла
+GET http://localhost:5000/api/controllersres/load?filePath= Требуется указать полный путь и наименование файла с тестовыми данными
+
+Поиск площадок по локации
+GET http://localhost:5000/api/controllersres/search?location= Адрес локации
+
+    
+    
